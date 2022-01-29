@@ -10,3 +10,33 @@
     
     background: url(./BackgroundPic2.png);
   }
+
+  .prob {
+    position: absolute;
+    left: 22.46%;
+    right: 22.46%;
+    top: 27.39%;
+    bottom: 37.58%;
+
+  
+  }
+
+  .prob_line {
+    position: absolute;
+    left: 22.56%;
+    right: 50%;
+    top: 12.1%;
+    bottom: 80.41%;
+  
+  }
+
+  .sol{
+    position: absolute;
+    left: 50%;
+    right: 22.56%;
+    top: 12.1%;
+    bottom: 84%;
+
+    transition: all 0.2s ease;
+
+  }

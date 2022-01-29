@@ -5,14 +5,15 @@ import BackgroundPic from '../../components/BackgroundPic.js';
 import Footer from '../../components/Footer.js'
 import { Container } from 'react-bootstrap';
 import classes from './Home.module.css';
+import history from '../../history';
 
 function Home() {
     return (
     <div>
         <Container>
             <BackgroundPic />
-            <img className={classes.logo} src={require('./HeaderLogo1.png')} alt="face"/>
-            <img className={classes.biglogo} src={require('./BigLogos2.png')} alt="face"/>
+            <img className={classes.logo} src={require('./HeaderLogo1.png')} onClick={() => history.push('/')} alt="face"/>
+            <img className={classes.biglogo} src={require('./BigLogos.png')} alt="face"/>
             <img className={classes.white} src={require('./IntroVisual.png')} alt="face"/>
             <img className={classes.black} src={require('./How.png')} alt="face"/>
             <img className={classes.process} src={require('./HomePage_Process.png')} alt="face"/>

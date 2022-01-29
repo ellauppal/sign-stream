@@ -5,7 +5,7 @@ function AboutBtn() {
 
     return (
         <div className={classes.btn}>
-          <img className='aboutBtn' onClick={() => history.push('/about1')} src={require('./aboutbutton.png')} alt="About"/>
+          <img className='aboutBtn' onClick={() => history.push('/about')} src={require('./aboutbutton.png')} alt="About"/>
         </div>
       );
     }

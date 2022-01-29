@@ -1,25 +1,26 @@
 import StreamBtn from '../../components/StreamBtn.js';
 import AboutBtn from '../../components/AboutBtn.js';
-import Footer from '../../components/Footer.js'
+import Footer2 from '../../components/Footer2.js'
 import { Container } from 'react-bootstrap';
-import classes from './About1.module.css';
+import classes from './About.module.css';
 import BackgroundPicAbout from '../../components/BackgroundPicAbout.js';
+import BackgroundPicAbout2 from '../../components/BackgroundPicAbout2.js';
+import history from '../../history';
 
-function About1() {
+function About() {
     return(
         <div>
             <Container>
             <BackgroundPicAbout />
-                <img className={classes.logo} src={require('./HeaderLogo1.png')} alt="Logo"/>
+            <BackgroundPicAbout2/>
+                <img className={classes.logo} src={require('./HeaderLogo1.png')} onClick={() => history.push('/')} alt="Logo"/>
                 <img className={classes.whySS} src={require('./whySS.png')} alt="why" />
-                <img className={classes.pic} src={require('./ProblemPic.png')} alt = "pic" />
-                <Footer />
             </Container>
             <AboutBtn />
             <StreamBtn />    
-            <Footer />
+            <Footer2 />
     </div>
     );
 }
 
-export default About1;
+export default About;

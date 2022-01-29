@@ -4,7 +4,12 @@
     height: 76px;
     left: 72px;
     top: 50px;
+    transition: all 0.2s ease;
 
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .biglogo{
@@ -14,6 +19,7 @@
     left: -44px;
     top: 440px;
 }
+
 
 .white{ 
     position: absolute;

@@ -1,0 +1,17 @@
+.title {
+    font-family: Gilroy-ExtraBold;
+    font-style: ☞;
+    font-size: 42px;
+    line-height: 100%;
+    align-items : center;
+    vertical-align: top;
+    color: blue;
+
+    transition: none !important;
+}
+
+.title:hover {
+    transform: scale(1.1);
+    outline: none !important;
+    color: white !important;
+}
