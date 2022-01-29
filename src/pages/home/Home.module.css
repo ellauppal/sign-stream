@@ -1,0 +1,49 @@
+.logo {
+    position: absolute;
+    width: 412px;
+    height: 76px;
+    left: 72px;
+    top: 50px;
+
+}
+
+.biglogo{
+    position: absolute;
+    width: 1988px;
+    height: 458px;
+    left: -44px;
+    top: 440px;
+}
+
+.white{ 
+    position: absolute;
+    width: 1026px;
+    height: 582px;
+    left: 512px;
+    top: 1210px;
+}
+
+.black{
+    position: absolute;
+    width: 2028px;
+    height: 358px;
+    left: 0px;
+    top: 1888px;
+}
+
+.process{
+    position: absolute;
+    width: 1246px;
+    height: 2596px;
+    left: calc(50% - 1246px/2 + 0.5px);
+    top: 2280px;
+}
+
+.grad{
+    position: absolute;
+    width: 2028px;
+    height: 358px;
+    left: 0px;
+    top: 4942px;
+}
+

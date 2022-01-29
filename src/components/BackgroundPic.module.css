@@ -1,0 +1,12 @@
+.back {
+
+  position: absolute;
+  width: 2048px;
+  height: 1112px;
+  left: 0px;
+  top: 0px;
+  
+  background-size: cover !important;
+  
+  background: url(./backgroundwoman.png);
+}

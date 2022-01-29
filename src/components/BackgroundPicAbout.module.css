@@ -1,0 +1,12 @@
+.backAbout {
+
+    position: absolute;
+    width: 2048px;
+    height: 820px;
+    left: 0px;
+    top: 0px;
+    
+    background-size: cover !important;
+    
+    background: url(./BackgroundPic1.png);
+  }

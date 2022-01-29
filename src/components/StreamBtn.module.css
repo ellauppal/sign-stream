@@ -1,0 +1,19 @@
+.btn {
+  position: absolute;
+  min-width: 220px !important;
+  min-height: 74px !important;
+  right: 88px;
+  top: 58px;
+
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+
+  transition: all 0.2s ease;
+}
+
+.btn:focus {
+  outline: none !important;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}

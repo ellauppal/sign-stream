@@ -1,0 +1,25 @@
+.logo {
+    position: absolute;
+    width: 412px;
+    height: 76px;
+    left: 72px;
+    top: 50px;
+
+}
+
+.whySS {
+    position: absolute;
+    width: 960px;
+    height: 212px;
+    top: 183px;
+    left: 271px;
+}
+
+.pic {
+    position: absolute;
+    width: 2048px;
+    height: 1256px;
+    top: 820px;
+    right: 0px;
+
+}

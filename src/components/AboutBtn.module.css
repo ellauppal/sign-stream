@@ -1,0 +1,18 @@
+.btn {
+  
+  position: absolute;
+  min-width: 220px !important;
+  min-height: 74px !important;
+  right: 340px;
+  top: 58px;
+
+  transition: all 0.2s ease;
+}
+
+.btn:focus {
+  outline: none !important;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
