@@ -5,7 +5,8 @@ function StreamBtn2() {
 
     return (
         <div className={classes.btn}>
-          <img className='streamBtn' onClick={() => history.push('/stream')} src={require('./StreamButton.png')} alt="Stream"/>
+          <img className='streamBtn' onClick={event => (window.location.href = "https://localhost:3000/")} 
+          src={require('./StreamButton.png')} alt="Stream"/>
         </div>
       );
     }
