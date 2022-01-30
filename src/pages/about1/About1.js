@@ -4,7 +4,7 @@ import Footer2 from '../../components/Footer2.js'
 import { Container } from 'react-bootstrap';
 import classes from './About1.module.css';
 import BackgroundPicAbout from '../../components/BackgroundPicAbout.js';
-import BackgroundPicAbout2 from '../../components/BackgroundPicAbout2.js';
+import BackgroundPicAbout3 from '../../components/BackgroundPicAbout3.js';
 import history from '../../history';
 
 function About1() {
@@ -12,7 +12,7 @@ function About1() {
         <div>
             <Container>
             <BackgroundPicAbout />
-            <BackgroundPicAbout2/>
+            <BackgroundPicAbout3/>
                 <img className={classes.logo} src={require('./HeaderLogo1.png')} onClick={() => history.push('/')} alt="Logo"/>
                 <img className={classes.whySS} src={require('./whySS.png')} alt="why" />
             </Container>

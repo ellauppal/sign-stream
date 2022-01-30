@@ -11,15 +11,17 @@
     background: url(./BackgroundPic2.png);
   }
 
-  .prob_line {
+  .prob{
     position: absolute;
     left: 22.46%;
     right: 22.46%;
     top: 27.39%;
     bottom: 37.58%;
+
+  
   }
 
-  .prob_text {
+  .sol_text {
     position: absolute;
     left: 22.56%;
     right: 50%;
@@ -27,7 +29,7 @@
   
   }
 
-  .sol{
+  .sol_line{
     position: absolute;
     left: 50%;
     right: 22.56%;
