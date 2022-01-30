@@ -1,11 +1,10 @@
 import classes from './StreamBtn.module.css';
-import history from './../history';
 
 function StreamBtn2() {
 
     return (
         <div className={classes.btn}>
-          <img className='streamBtn' onClick={event => (window.location.href = "https://localhost:3000/")}  
+          <img className='streamBtn' onClick={event => (window.location.href = "http://localhost:3000")}  
           src={require('./streambutton-1.png')} alt="Stream"/>
         </div>
       );
